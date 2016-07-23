@@ -1,0 +1,8 @@
+---
+- name: Setup atp-stat dev server
+  hosts: all
+  sudo: yes
+  roles:
+    - common
+    - ruby
+    - postgres
