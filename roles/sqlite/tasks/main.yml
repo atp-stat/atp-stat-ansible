@@ -1,0 +1,5 @@
+- name: Install sqlite
+  yum: name={{ item }} state=latest
+  with_items:
+    - sqlite
+    - sqlite-devel

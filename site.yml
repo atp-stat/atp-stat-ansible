@@ -6,3 +6,4 @@
     - common
     - ruby
     - postgres
+    - sqlite
